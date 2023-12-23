@@ -1,0 +1,18 @@
+.btn-container{
+    border: 2px solid red;
+    height: 50vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10 10 20 rgba(32, 23, 23, 0.5);
+}
+
+#btn{
+    margin-top: 24vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
