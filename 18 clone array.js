@@ -25,3 +25,11 @@ console.log(array4);
 // array2 = array1.slice(0);   // slice method
 // array3 = [].concat(array1); // concat method
 // array4 = [...array1];       // spread operator
+
+const originalArray = [1,2,3,4];
+// const newArray = originalArray.map(item => item); // Using higher order function (map)
+// const newArray = Array.from(originalArray); // Using Array.from() method
+
+const newArray = JSON.parse(JSON.stringify(originalArray)); // Note: This method has limitations and may not work as expected with arrays containing non-primitive data types.
+console.log(newArray, originalArray);
+console.log(newArray === originalArray);
