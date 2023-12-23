@@ -98,14 +98,14 @@ function hello(){
 
 
 // -----------------------------------------------------------------------
-console.log(hello); // undefined
-var hello = "hello World";
-console.log(hello); // Hello World
+console.log(myVar); // undefined
+// var myVar = "hello World";
+console.log(myVar); // Hello World
 
-console.log(hello); // Error
-let hello = "hello World";
-console.log(hello); // Error
+console.log(myVar); // Error
+// let myVar = "hello World";
+console.log(myVar); // Error
 
-console.log(hello); // Error
-const hello = "hello World";
-console.log(hello); // Error
+console.log(myVar); // Error
+// const myVar = "hello World";
+console.log(myVar); // Error
