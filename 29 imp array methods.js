@@ -116,10 +116,10 @@ console.log(sum);
 // This method change the existing array it will not create a new array
 
 const username = ["user1", "user5", "user9", "user8"];
-console.log( username.sort());
+console.log( username.sort()); // In case of string, no need to pass arguments.
 
 const num3 = [49,44,848,84,841,5];
-console.log(num3.sort((a,b) => a-b));
+console.log(num3.sort((a,b) => a-b)); // In case of number, we need to pass a function.
 
 // 49, 44
 // a-b ---> 4 (positive)
@@ -134,14 +134,18 @@ const products = [
     {productId : 5, productName : "p5", price : 500}
 ];
 
-// lowToHigh
+// lowToHigh (a-b)
 products.sort((a,b) => {
     return a.price - b.price;
 });
 
+// highToLow (b-a)
+products.sort((a,b) => {
+    return b.price - a.price;
+});
+
 console.log(products);
 // Note : sort method does not create new array, it will change the existing array
-
 
 
 
