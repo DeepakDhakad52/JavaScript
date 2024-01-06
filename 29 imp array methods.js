@@ -152,7 +152,7 @@ console.log(products);
 
 
 
-// find method : This mrthod is used to find element in the array according to the given condition
+// find method : This method is used to find element in the array according to the given condition
 
 const myArray = ["hello","cat", "doggy"];
 
