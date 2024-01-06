@@ -12,7 +12,7 @@ else
 }
 
 // or operator
-if(age>=18 && firstName[0]==="D")
+if(age>=18 || firstName[0]==="D")
 {
     console.log("inside if block");
 }

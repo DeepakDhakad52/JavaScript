@@ -54,6 +54,6 @@ console.log(firstName);
 
 
 
-
+// Note : Every thing in javascript during the creation phase / compilation phase are store in the form of object {key: value}, or usko global environment record bolte hai.
 
 // TDZ ->  Temporal dead zone : The time in which a variable is not initialized, is known as TDZ(Temporal Dead Zone)

@@ -94,17 +94,17 @@ console.log(oddNum);
 // reduce method : This method return a single output
 const num2 =[1,2,3,4,5];
 
-let sum = num2.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue;
+let sum = num2.reduce((initialValue, currentValue) => {
+    return initialValue + currentValue;
 }, 0);
 
 console.log(sum);
 
-// accumalator, currentValue , return 
+// initialValue, currentValue , return 
 //      1           2           3
 //      3           3           6
 //      6           4           10
-//      10          5           15 
+//      10          5           15
 
 
 
