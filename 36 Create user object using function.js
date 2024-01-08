@@ -76,7 +76,7 @@
 // console.log(u3.about());
 
 // There is again a new problem of defining the refrence of methods in the function
-// Note : If you want to create more method in the userMethod object and you want to give access of that method to the createUser function, then you need to give refrence of each and every method to the createUser function
+// Note : If you want to create more method in the userMethod object and you want to give access of that method to the createUser function, then you need to give reference of each and every method to the createUser function
 
 
 

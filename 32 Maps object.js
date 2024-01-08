@@ -37,6 +37,7 @@ console.log(personMap);
 // Access value of key from the map
 console.log(personMap.get('firstName')); // Use get() method 
 console.log(personMap.get('age'));
+console.log(personMap.get(1));
 
 // To print all keys of map
 console.log(personMap.keys());
@@ -64,12 +65,14 @@ const person1 =  {
 
 const person2 =  {
     id: 2,
-    name: "Yogita"
+    name: "Doremi"
 };
 
 const extraInfo = new Map();
+
 extraInfo.set(person1, {age:21, gender: "male"});
 extraInfo.set(person2, {age:20, gender: "female"});
+
 // console.log(extraInfo);
 console.log(person1.id);
 console.log(person2.id);

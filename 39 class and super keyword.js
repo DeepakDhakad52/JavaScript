@@ -19,7 +19,7 @@ class CreateUser{
     }
 }
 
-// NOte : We cannot create an object without using new keyword 
+// NOte : We cannot create an obt withouject using new keyword 
 // We are not able to invoke constructor without using new keyword
 
 const u1 = new CreateUser('Deepak','Dhakad',21,'example@xyz.com','Indore');

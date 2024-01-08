@@ -23,16 +23,16 @@ function personInfo(){
     console.log(`Person name is ${this.name} and Person age is ${this.age}`);
 }
 
-const person = {
-        name : "deepak",
-        age: 21,
-        about : personInfo
+const deepak = {
+    name : "deepak",
+    age: 21,
+    about : personInfo
 };
 
-const person1 = {
-    name : "Yogita",
-        age: 20,
-        about : personInfo
+const doremi = {
+    name : "Doremi",
+    age: 20,
+    about : personInfo
 }
     
 person.about(); // Calling of the function
@@ -87,9 +87,8 @@ const user1 = {
 }
 
 const user2 = {
-    name : "Yogita",
+    name : "Doremi",
     age: 20,
-
 }
 
 // user1.about();
@@ -105,8 +104,6 @@ user1.about.apply(user2, ["Cycling","Arijit Singh"]);
 // bind() method will return function as output whenever we use bind()
 const func = user1.about.bind(user2, 'guitar','Darshan');
 func();
-
-
 
 
 

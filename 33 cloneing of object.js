@@ -19,5 +19,10 @@ console.log(obj2);
 
 
 // Cloning using JSON Object
-const obj3 = JSON.parse(JSON.stringify(obj1))
+const obj3 = JSON.parse(JSON.stringify(obj1)) 
 console.log(obj3);
+
+
+// const newobj = Object.assign({}, doremi); // shallow cloning
+// const newobj = {...doremi}; // Shallow Cloning
+// const newobj = JSON.parse(JSON.stringify(doremi)); // Deep Cloning
