@@ -13,7 +13,7 @@
 
 // // new keyword : 1) It will create an empty object "this" = {}
 // // 2) return "this"
-// // 3) Object.create(createUser.prototype)
+// // 3) Object.create(createUser.prototype) : This is done automatically by new keword, It will create a [[prototype]].
 
 // console.log(user1);
 

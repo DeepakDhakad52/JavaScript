@@ -93,7 +93,7 @@
 // }
 
 // function createUser(firstname, lastname, age, email, address){
-//     const user = Object.create(userMethods);
+//     const user = Object.create(userMethods); // This will keep the reference of userMethod in its [[prototype]] or I can say that it will set [[prototype]] of user
 //     user.firstName = firstname;
 //     user.lastName = lastname;
 //     user.email = email;
@@ -126,10 +126,14 @@ const obj1 = {
 // }
 
 // const obj2 = {};
+
+// Note : There is only key3 is available in the obj2, and I want to access some keys which are not in the obj2 but the are present in the obj1 so i can use Object.create() method to create an empty object and pass the reference of obj1 so that obj2 can access the properties(keys) of obj1. 
+
 // There is one more way to create empty object 
-const obj2 = Object.create(obj1);
+const obj2 = Object.create(obj1); // This will take reference of obj1 in its [[prototype]] or I can say that it will set obj1 as [[prototype]] of obj2.
 console.log(obj2);
 obj2.key3 = 'value3'
+
 
 // __proto__  <-- same --> [[Prototype]]
 
@@ -153,6 +157,7 @@ function hello() {
 }
 
 // javasrcipt function ===> function + object 
+// Javascript function are objects
 
 // console.log(hello.name);
 
@@ -167,6 +172,8 @@ function hello() {
 // console.log(hello.prototype); // {}
 
 // only function provides prototype property
+
+// function provides us a free space(object {}) which is known as prototype
 
 // if(hello.prototype){
 //     console.log("Prototype is present");

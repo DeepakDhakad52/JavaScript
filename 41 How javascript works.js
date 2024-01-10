@@ -9,6 +9,7 @@
 
 // -> Compilatiom phase : 1) Early error checking 
 //                        2) Determining Appropriate scope for variables
+
 // -> Code Execution phase : IN JAVASRIPT CODE EXECUTES INSIDE EXECUTION CONTEXT
 //      1) Global execution context
 //      2) Local execution context 

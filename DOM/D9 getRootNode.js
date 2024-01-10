@@ -14,7 +14,7 @@ console.log(bodyNode);
 
 console.log(headElementNode.parentNode);
 console.log(headElementNode.nextSibling); //It will give the next sibling of headElementNode
-console.log(headElementNode.nextElementSibling); // It will give the next element not text
+console.log(headElementNode.nextElementSibling); // It will give the next element not textNode
 
 
 console.log(headElementNode.childNodes);
